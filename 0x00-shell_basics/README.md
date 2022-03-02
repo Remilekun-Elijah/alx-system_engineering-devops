@@ -27,3 +27,15 @@
  ```bash
  $ ls -l
  ```
+
+ #### Display current directory contents in a long format, including hidden files
+```bash
+ls -l -a
+```
+
+ #### Display current directory contents. 
+ - Long format
+ - with user and group IDs displayed numerically and hidden files (starting with .)
+```bash
+ls -l -a -n
+```
