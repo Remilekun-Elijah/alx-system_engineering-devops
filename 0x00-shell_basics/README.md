@@ -10,3 +10,15 @@
 ```bash
  $ chmod u+x ./shell_file
 ```
+
+#### how to list all files in a directory.
+```bash
+ $ ls
+ ```
+
+ #### how to navigate to current users home directory.
+```bash
+ $ cd ~
+ $ pwd
+ /home/remilekun
+```
