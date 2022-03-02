@@ -46,3 +46,8 @@ ls -l -a -n
 ```bash
 mkdir /tmp/my_first_directory
 ```
+
+#### Move the file betty from /tmp/ to /tmp/my_first_directory.
+```bash
+mv /tmp/betty /tmp/my_first_directory/betty
+```
