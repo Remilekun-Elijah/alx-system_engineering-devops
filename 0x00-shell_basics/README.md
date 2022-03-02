@@ -22,3 +22,8 @@
  $ pwd
  /home/remilekun
 ```
+
+#### Display current directory contents in a long format
+ ```bash
+ $ ls -l
+ ```
