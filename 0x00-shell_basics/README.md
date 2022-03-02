@@ -39,3 +39,10 @@ ls -l -a
 ```bash
 ls -l -a -n
 ```
+
+#### Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+
+> The task is to create a script that creates a directory named my_first_directory in the /tmp/ directory.
+```bash
+mkdir /tmp/my_first_directory
+```
