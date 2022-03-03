@@ -78,3 +78,23 @@ $ pwd
  $ cd -
 # /home/remilekun
 ```
+
+#### Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
+```bash
+ls -la . .. /boot
+# total 64
+# drwxrwxr-x 2 remilekun remilekun 4096 Mar  3 21:34 .
+# drwxrwxr-x 5 remilekun remilekun 4096 Mar  2 20:24 ..
+# -rwxrw-r-- 1 remilekun remilekun   16 Mar  2 23:39 0-current_working_directory
+```
+
+#### Write a script that prints the type of the file named iamafile. The file iamafile will be in the `/tmp` directory when we will run your script.
+```bash
+file /tmp/iamafile
+# /tmp/iamafile: ASCII text
+```
+
+#### Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory. 
+```bash
+ln -s /bin/ls __ls__
+```
