@@ -37,9 +37,9 @@ $ chmod 744 ./hello
 $ chmod 554 ./hello
 ```
 
-#### Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
+7. #### Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 - The file hello will be in the working directory
 - You are not allowed to use commas for this script
 ```bash
-$ chmod 555 ./hello
+$ chmod a+x ./hello
 ```
