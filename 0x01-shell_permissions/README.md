@@ -15,3 +15,8 @@ $ whoami
 $ groups
 # adm dialout cdrom floppy audio video plugdev users
 ```
+
+#### Change the owner of the file `hello` to `betty`
+```bash
+$ chown betty ./hello
+```
