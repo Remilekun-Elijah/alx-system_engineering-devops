@@ -20,3 +20,8 @@ $ groups
 ```bash
 $ chown betty ./hello
 ```
+
+#### Create a file `hello`
+```bash
+$ touch hello
+```
